@@ -1,0 +1,51 @@
+/* NavBar.css */
+header {
+    background-color: #007BFF;
+    /* Navbar background color */
+    padding: 1rem 0;
+    border-bottom: 2px solid #0056b3;
+    /* Distinct border */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    /* Border for hover effect */
+    transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    /* Slightly darker hover effect */
+    border: 2px solid white;
+    /* Border becomes visible */
+    border-radius: 5px;
+    /* Rounded corners for hover effect */
+}
